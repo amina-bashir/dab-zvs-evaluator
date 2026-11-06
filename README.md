@@ -59,7 +59,11 @@ The comparison evaluates whether the proposed models correctly reproduce the ZVS
 ---
 
 ## Results
+### ZVS Operating-Region Evaluation
 
+![ZVS operating-region evaluation](figures/layer1_penalty.png)
+
+*Figure 1. Evaluated operating region showing the ZVS-related performance metric across output current and voltage conditions. The white curve indicates the converter operating envelope.*
 The developed evaluators showed strong agreement with the detailed switching simulation in predicting the ZVS operating region.
 
 The reduced formulation provides a lower-complexity alternative for applications where ZVS must be evaluated repeatedly, such as:
